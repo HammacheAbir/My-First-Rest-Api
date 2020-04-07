@@ -1,0 +1,23 @@
+{
+  "name": "My-First-Rest-Api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HammacheAbir/My-First-Rest-Api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HammacheAbir/My-First-Rest-Api/issues"
+  },
+  "homepage": "https://github.com/HammacheAbir/My-First-Rest-Api#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
