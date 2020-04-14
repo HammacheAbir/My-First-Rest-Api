@@ -17,7 +17,7 @@ router.get('/',async(req,res)=>{
 router.get('/:id',async(req,res)=>{
     try{
         const found = await post.findById(req.params.id)
-        //res.json(found)
+        res.json(found)
     }catch(err){
         res.json({message: err})
     }
